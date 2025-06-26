@@ -10,7 +10,7 @@ public class NonRepeating {
 		
 		HashSet<Character> unique=new HashSet<>();
 		
-		for(int i=0; i<=str.length(); i++) {
+		for(int i=0; i<str.length(); i++) {
 			
 			char ch=str.charAt(i);
 			
